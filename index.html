@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Untuk Kamu ❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<!-- HALAMAN UTAMA -->
+<div class="card fade show" id="mainCard">
+
+    <img src="Screenshot 2025-12-23 002545.png" class="avatar">
+
+    <h1 class="type">Happy Anniversary Lyan & Bibil❤️</h1>
+    <p id="dateText" class="type delay1"></p>
+
+    <div class="days type delay2">
+        <span id="daysCount"></span>
+        <small>hari bersama kamu 🤍</small>
+    </div>
+
+    <p id="quote" class="quote type delay3"></p>
+
+    <button onclick="showLove()">Klik Aku 🫂</button>
+    <button class="secondary" onclick="openGallery()">Lihat foto-foto kita yuk 📸</button>
+
+    <p id="loveText" class="hidden">
+        Aku tidak menjanjikan kesempurnaan,<br>
+        tapi aku menjanjikan bertahan,I always love you 🤍
+    </p>
+</div>
+
+<!-- GALERI -->
+<div class="card fade hidden" id="galleryCard">
+    <h2>Kenangan Kita 📸</h2>
+
+    <div class="slider">
+        <img id="slidePhoto" src="Screenshot 2025-12-23 002545.png">
+    </div>
+
+    <p class="hint">Geser atau tunggu ya 🤍</p>
+    <button onclick="closeGallery()">Kembali ❤️</button>
+</div>
+
+<!-- MUSIK -->
+<audio id="music" loop>
+    <source src="Ed Sheeran - Perfect.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
