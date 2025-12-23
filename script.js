@@ -33,7 +33,7 @@ document.body.addEventListener("click",()=>{
 },{ once:true });
 
 // GALLERY
-const photos = ["Screenshot 2025-12-23 002545.png","Screenshot 2025-12-23 005051.png","Screenshot 2025-12-23 005123.png"];
+const photos = ["Screenshot 2025-12-23 002545.png","Screenshot 2025-12-23 005051.png","Screenshot 2025-12-23 005123.png","Screenshot 2025-12-23 160016.png","Screenshot 2025-12-23 160040.png","Screenshot 2025-12-23 160127.png","Screenshot 2025-12-23 160204.png",];
 let p = 0;
 setInterval(()=>{
     const img = document.getElementById("slidePhoto");
@@ -68,3 +68,4 @@ function closeGallery(){
 function showLove(){
     document.getElementById("loveText").style.display="block";
 }
+
